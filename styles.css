@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+body {
+    float: left;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 4000;
+    margin: 10px;
+}
+
+.head-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    max-width: 80%;
+}
+
+.btn {
+    width: 100%;
+}
+
+.content {
+    float: left;
+    width: 66.6666%;
+}
+
+.sidebar {
+    float: left;
+    width: 33.3333%;
+}
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    display: table;
+    margin: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead {
+    color: #fff;
+    background-color: mediumpurple;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    padding: 8px 8px 8px 16px;
+    display: table-cell;
+    vertical-align: top;
+}

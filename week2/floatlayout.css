@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.column {
+    float: left;
+    background-color:lightskyblue;
+    text-align: center;
+    font-size: 50px;
+    height: 700px;
+    margin: 1%;
+}
+
+.column.middle {
+    width: 58%;
+}
+
+.column.outer {
+    width: 18%;
+}
+
+#rotation-around-corner {
+    animation-name: rotateTL;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateTL {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 0% 0%;
+    }
+
+    50% {
+        transform: rotate(180deg);
+        transform-origin: 0% 0%;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        transform-origin: 0% 0%;
+    }
+}

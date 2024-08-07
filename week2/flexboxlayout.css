@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.row {
+    display: flex;
+    align-items: stretch;
+}
+
+.column {
+    background-color:lightskyblue;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    height: 800px;
+}
+
+.column.middle {
+    flex-grow: 5;
+}
+
+.column.outer {
+    flex-grow: 1;
+}
